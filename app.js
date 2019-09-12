@@ -1,8 +1,7 @@
 import app from './config/express';
 import config from './env';
-console.log("sid");
 const debug = require('debug')('same-brain:app');
-console.log("TIPU");
+console.log("Sid");
 const port = process.env.PORT || config.PORT;
 
 // connecting the database
